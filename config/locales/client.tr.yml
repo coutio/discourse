@@ -144,14 +144,14 @@ en:
 
       email:
         title: "Email"
-        instructions: "Your email will never be shown to the public."
-        ok: "Looks good. We will email you to confirm."
-        invalid: "Please enter a valid email address."
-        authenticated: "Your email has been authenticated by {{provider}}."
-        frequency: "We'll only email you if we haven't seen you recently and you haven't already seen the thing we're emailing you about."
+        instructions: "Email adresiniz başkaları tarafından görülemez."
+        ok: "Oney için size email göndereceğiz."
+        invalid: "Lütfen geçerli bir email girin."
+        authenticated: "Emailiniz {{provider}} tarafından doğrulandı."
+        frequency: "Sadece sizi belli bir süre görmediğimizde veya henüz haberiniz olmayan içerikler konusunda email göndereceğiz."
 
       name:
-        title: "Name"
+        title: "İsim"
         instructions: "The longer version of your name; does not need to be unique. Used for alternate @name matching and shown only on your user page."
         too_short: "Your name is too short."
         ok: "Your name looks good."
