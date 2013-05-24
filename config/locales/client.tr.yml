@@ -212,27 +212,27 @@ en:
           other: "{{count}} dakika sonra"
 
       invited:
-        title: "Invites"
-        user: "Invited User"
-        none: "{{username}} hasn't invited any users to the site."
+        title: "Davetler"
+        user: "Davetli Kullanıcı"
+        none: "{{username}} siteye henüz kullanıcı davet etmedi."
         redeemed: "Redeemed Invites"
         redeemed_at: "Redeemed At"
-        pending: "Pending Invites"
-        topics_entered: "Topics Entered"
-        posts_read_count: "Posts Read"
-        rescind: "Remove Invitation"
-        rescinded: "Invite removed"
-        time_read: "Read Time"
-        days_visited: "Days Visited"
-        account_age_days: "Account age in days"
+        pending: "Bekleyen Davetler"
+        topics_entered: "Girilen Konular"
+        posts_read_count: "Okunan Mesajlar"
+        rescind: "Daveti Kaldır"
+        rescinded: "Davet kaldırıldı"
+        time_read: "Okuma Zamanı"
+        days_visited: "Ziyaret Günleri"
+        account_age_days: "Üyelik süresi (gün)"
 
       password:
-        title: "Password"
-        too_short: "Your password is too short."
-        ok: "Your password looks good."
+        title: "Şifre"
+        too_short: "Şifreniz çok kısa."
+        ok: "Şifreniz iyi görünüyor."
 
       ip_address:
-        title: "Last IP Address"
+        title: "Son IP Adresi"
       avatar:
         title: "Avatar"
         instructions: "We use <a href='https://gravatar.com' target='_blank'>Gravatar</a> for avatars based on your email"
