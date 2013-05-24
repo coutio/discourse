@@ -152,64 +152,64 @@ en:
 
       name:
         title: "İsim"
-        instructions: "The longer version of your name; does not need to be unique. Used for alternate @name matching and shown only on your user page."
-        too_short: "Your name is too short."
-        ok: "Your name looks good."
+        instructions: "İsminizin daha uzun versiyonu; benzersiz olması gerekmez. Alternatif @isim için kullanılır ve sadece kullanıcı sayfasında gösterilir."
+        too_short: "İsminiz çok kısa."
+        ok: "İsminiz iyi görünüyor."
       username:
-        title: "Username"
-        instructions: "Must be unique, no spaces. People can mention you as @username."
-        short_instructions: "People can mention you as @{{username}}."
-        available: "Your username is available."
-        global_match: "Email matches the registered username."
-        global_mismatch: "Already registered. Try {{suggestion}}?"
-        not_available: "Not available. Try {{suggestion}}?"
-        too_short: "Your username is too short."
-        too_long: "Your username is too long."
-        checking: "Checking username availability..."
-        enter_email: 'Username found. Enter matching email.'
+        title: "Kullanıcı Adı"
+        instructions: "Benzersiz olmalı, boşluk olmamalı. İnsanlar sizden @kullaniciadi olarak söz edebilmeli."
+        short_instructions: "İnsanlar sizden @{{username}} olarak söz edebilmeli."
+        available: "Kullanıcı adınız kullanılabilir."
+        global_match: "Kayıtlı kullanıcı adı ile eşleşen email."
+        global_mismatch: "Zeten kayıtlı. Öneri {{suggestion}}?"
+        not_available: "Mevcut değil. Öneri {{suggestion}}?"
+        too_short: "Kullanıcı adınız çok kısa."
+        too_long: "Kullanıcı adınız çok uzun."
+        checking: "Kullanıcı adı durumu kontrol ediliyor..."
+        enter_email: 'Kullanıcı adı bulundu. Eşleşen emaili girin.'
 
       password_confirmation:
-        title: "Password Again"
+        title: "Şifre Tekrar"
 
-      last_posted: "Last Post"
-      last_emailed: "Last Emailed"
-      last_seen: "Last Seen"
-      created: "Created At"
-      log_out: "Log Out"
-      website: "Web Site"
+      last_posted: "Son Mesaj"
+      last_emailed: "Son Email"
+      last_seen: "Son Görülme"
+      created: "Oluşturulma"
+      log_out: "Çıkış"
+      website: "Web Sitesi"
       email_settings: "Email"
       email_digests:
-        title: "When I don't visit the site, send me an email digest of what's new"
-        daily: "daily"
-        weekly: "weekly"
-        bi_weekly: "every two weeks"
+        title: "Siteyi ziyaret etmediğimde, yeniliklerin özetini emailime gönder"
+        daily: "günlük"
+        weekly: "haftalık"
+        bi_weekly: "iki haftada bir"
 
-      email_direct: "Receive an email when someone quotes you, replies to your post, or mentions your @username"
-      email_private_messages: "Receive an email when someone sends you a private message"
+      email_direct: "Birisi sizden alıntı yaptığında, mesajlarınıza cevap verdiğinde veya @isminiz anıldığında email gönderilsin"
+      email_private_messages: "Birisi size özel mesaj gönderdiğinde email gönderilsin"
 
-      other_settings: "Other"
+      other_settings: "Diğer"
 
       new_topic_duration:
-        label: "Consider topics new when"
-        not_viewed: "I haven't viewed them yet"
-        last_here: "they were posted since I was here last"
+        label: "Konuların yeni sayılma kriterleri"
+        not_viewed: "Henüz görmediğim konular"
+        last_here: "En son bulunduğum tarihten sonraki konular"
         after_n_days:
-          one: "they were posted in the last day"
-          other: "they were posted in the last {{count}} days"
+          one: "son gün içinde yayınlananlar"
+          other: "son {{count}} gün içinde yayınlananlar"
         after_n_weeks:
-          one: "they were posted in the last week"
-          other: "they were posted in the last {{count}} week"
+          one: "son hafta yayınlananlar"
+          other: "son {{count}} hafta içinde yayınlananlar"
 
-      auto_track_topics: "Automatically track topics I enter"
+      auto_track_topics: "Girdiğim konuları otomatik olarak takip et"
       auto_track_options:
-        never: "never"
-        always: "always"
+        never: "asla"
+        always: "daima"
         after_n_seconds:
-          one: "after 1 second"
-          other: "after {{count}} seconds"
+          one: "1 saniye sonra"
+          other: "{{count}} saniye sonra"
         after_n_minutes:
-          one: "after 1 minute"
-          other: "after {{count}} minutes"
+          one: "1 dakika sonra"
+          other: "{{count}} dakika sonra"
 
       invited:
         title: "Invites"
