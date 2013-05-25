@@ -235,73 +235,73 @@ en:
         title: "Son IP Adresi"
       avatar:
         title: "Avatar"
-        instructions: "We use <a href='https://gravatar.com' target='_blank'>Gravatar</a> for avatars based on your email"
+        instructions: "Emailinize bağlı avatarlar için <a href='https://gravatar.com' target='_blank'>Gravatar</a> kullanıyoruz"
 
       filters:
-        all: "All"
+        all: "Tümü"
 
       stream:
-        posted_by: "Posted by"
-        sent_by: "Sent by"
-        private_message: "private message"
-        the_topic: "the topic"
+        posted_by: "Gönderen"
+        sent_by: "Gönderen"
+        private_message: "özel mesaj"
+        the_topic: "konu"
 
-    loading: "Loading..."
-    close: "Close"
-    learn_more: "learn more..."
+    loading: "Yükleniyor..."
+    close: "Kapat"
+    learn_more: "daha fazla bilgi..."
 
-    year: 'year'
-    year_desc: 'topics posted in the last 365 days'
-    month: 'month'
-    month_desc: 'topics posted in the last 30 days'
-    week: 'week'
-    week_desc: 'topics posted in the last 7 days'
+    year: 'yıl'
+    year_desc: 'son 365 günde yayınlanan konular'
+    month: 'ay'
+    month_desc: 'son 30 günde yayınlanan konular'
+    week: 'hafta'
+    week_desc: 'son 7 günde yayınlanan konular'
 
-    first_post: First post
-    mute: Mute
-    unmute: Unmute
-    last_post: Last post
+    first_post: İlk mesaj
+    mute: Sessiz
+    unmute: Sesi aç
+    last_post: Son mesaj
 
     best_of:
-      title: "Best Of"
-      enabled_description: You are currently viewing the "Best Of" view of this topic.
-      description: "There are <b>{{count}}</b> posts in this topic. That's a lot! Would you like to save time by showing only the best posts?"
-      enable: 'Switch to "Best Of" view'
-      disable: 'Cancel "Best Of"'
+      title: "En İyi"
+      enabled_description: Şu anda bu konuyu "En İyi" görünümünde incelemektesiniz.
+      description: "Bu konuda <b>{{count}}</b> mesaj var. Bu çok fazla! En iyi mesajları görerek zaman kazanmak ister misniz?"
+      enable: '"En İyi" görünümüne geç'
+      disable: '"En İyi" görünümünü iptal et'
 
     private_message_info:
-      title: "Private Message"
-      invite: "Invite Others..."
+      title: "Özel Mesaj"
+      invite: "Başkalarını Davet Et..."
 
     email: 'Email'
-    username: 'Username'
-    last_seen: 'Last Seen'
-    created: 'Created'
-    trust_level: 'Trust Level'
+    username: 'Kullanıcı Adı'
+    last_seen: 'Son Görülme'
+    created: 'Oluşturulma'
+    trust_level: 'Güvenilirlik Seviyesi'
 
     create_account:
-      title: "Create Account"
-      action: "Create one now!"
-      invite: "Don't have an account yet?"
-      failed: "Something went wrong, perhaps this email is already registered, try the forgot password link"
+      title: "Hesap Oluştur"
+      action: "Şimdi hesap oluştur!"
+      invite: "Henüz hesabınız yok mu?"
+      failed: "Bazı şeyler yolunda gitmedi, belki bu email kayıtlıdır, şifre unutma bağlantısını deneyin"
 
     forgot_password:
-      title: "Forgot Password"
-      action: "I forgot my password"
-      invite: "Enter your username or email address, and we'll send you a password reset email."
+      title: "Şifremi Unuttum"
+      action: "Şifremi unuttum"
+      invite: "Kullanıcı adınızı veya emailinizi girin, size şifre sıfırlama emaili göndereceğiz."
       reset: "Reset Password"
-      complete: "You should receive an email with instructions on how to reset your password shortly."
+      complete: "Şifrenizi nasıl sıfırlayacağınıza ilişkin bir email alacaksıznı."
 
     login:
-      title: "Log In"
-      username: "Login"
-      password: "Password"
-      email_placeholder: "email address or username"
-      error: "Unknown error"
-      reset_password: 'Reset Password'
-      logging_in: "Logging In..."
-      or: "Or"
-      authenticating: "Authenticating..."
+      title: "Giriş"
+      username: "Giriş"
+      password: "Şifre"
+      email_placeholder: "email adresi veya kullanıcı adı"
+      error: "Bilinmeyen Hata"
+      reset_password: 'Şifreyi Sıfırla'
+      logging_in: "Giriş yapılıyor..."
+      or: "Veya"
+      authenticating: "Doğrulanıyor..."
       awaiting_confirmation: "Your account is awaiting activation, use the forgot password link to issue another activation email."
       awaiting_approval: "Your account has not been approved by a moderator yet. You will receive an email when it is approved."
       not_activated: "You can't log in yet. We previously sent an activation email to you at <b>{{sentTo}}</b>. Please follow the instructions in that email to activate your account."
