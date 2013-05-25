@@ -391,7 +391,7 @@ en:
       auto_close_units: "gün"
 
     notifications:
-      title: "notifications of @isim değinileri, mesaj ve konularınıza cevaplar, özel mesajlar vb. bildirimler"
+      title: "@isim değinileri, mesaj ve konularınıza cevaplar, özel mesajlar vb. bildirimler"
       none: "Şu anda hiçbir bildiriminiz yok."
       more: "eski bildirimleri görüntüle"
       mentioned: "<span title='değini' class='icon'>@</span> {{username}} {{link}}"
@@ -436,90 +436,90 @@ en:
 
     topics:
       none:
-        favorited: "You haven't favorited any topics yet. To favorite a topic, click or tap the star next to the title."
-        unread: "You have no unread topics to read."
-        new: "You have no new topics to read."
-        read: "You haven't read any topics yet."
-        posted: "You haven't posted in any topics yet."
-        latest: "There are no latest topics. That's sad."
-        hot: "There are no hot topics."
-        category: "There are no {{category}} topics."
+        favorited: "Henüz favori konunuz yok.t. Bir konuyu favorilerinize eklemek için, başlığın yanındaki yıldıza tıklayın veya dokunun."
+        unread: "Okunmamış konu yok."
+        new: "Okuyacağınız yeni konu yok."
+        read: "Henüz herhangi bir konu okumamışsınız."
+        posted: "Henüz hiçbir konu yayınlamamışsınız."
+        latest: "Yeni konu yok. Bu üzücü."
+        hot: "Beğenilen konu yok."
+        category: "{{category}} hiçbir konu yok."
       bottom:
-        latest: "There are no more latest topics to read."
-        hot: "There are no more hot topics to read."
-        posted: "There are no more posted topics to read."
-        read: "There are no more read topics to read."
-        new: "There are no more new topics to read."
-        unread: "There are no more unread topics to read."
-        favorited: "There are no more favorited topics to read."
-        category: "There are no more {{category}} topics."
+        latest: "Okunacak başka konu yok."
+        hot: "Okunacak başka beğenilen konu yok."
+        posted: "Okunacak paylaşılmış başka konu yok."
+        read: "Daha fazla okunacak konu yok."
+        new: "Okunacak başka yeni konu yok."
+        unread: "Okunmamış başka konu yok."
+        favorited: "Okunacak başka favori konu yok."
+        category: "{{category}} başka konu yok."
 
     rank_details:
-      toggle: toggle topic rank details
-      show: show topic rank details
-      title: Topic Rank Details
+      geçiş: konu sıralama detaylarını değiştir
+      göster: konu sıralama detaylarını göster
+      başlık: Konu Sıralama Detayları
 
     topic:
-      create_in: 'Create {{categoryName}} Topic'
-      create: 'Create Topic'
-      create_long: 'Create a new Topic'
-      private_message: 'Start a private message'
-      list: 'Topics'
-      new: 'new topic'
-      title: 'Topic'
-      loading_more: "Loading more Topics..."
-      loading: 'Loading topic...'
+      create_in: 'Konu {{categoryName}} Oluştur'
+      create: 'Konu Oluştur'
+      create_long: 'Yeni bir Konu Oluştur'
+      private_message: 'Özel Mesaj Başlat'
+      list: 'Konular'
+      new: 'yeni konu'
+      title: 'Konu'
+      loading_more: "Daha fazla Konu yükleniyor..."
+      loading: 'Konu yükleniyor...'
       invalid_access:
-        title: "Topic is private"
-        description: "Sorry, you don't have access to that topic!"
+        title: "Konu özeldir"
+        description: "Üzgünüz, bu konuya erişim izniniz bulunmuyor!"
       server_error:
-        title: "Topic failed to load"
-        description: "Sorry, we couldn't load that topic, possibly due to a connection problem. Please try again. If the problem persists, let us know."
+        title: "Konu yüklenemedi"
+        description: "Üzgünüz, konu yüklenemedi, bağlantı sorunu olabilir. Tekrar deneyin. Sorun devam ederse bize bildirin."
       not_found:
-        title: "Topic not found"
-        description: "Sorry, we couldn't find that topic. Perhaps it was removed by a moderator?"
-      unread_posts: "you have {{unread}} unread old posts in this topic"
-      new_posts: "there are {{new_posts}} new posts in this topic since you last read it"
+        title: "Konu bulunamadı"
+        description: "Üzgünüz, bu konuyu bulamadık. Belki moderatör tarafından silinmiştir?"
+      unread_posts: "bu konuda okunmamış {{unread}} mesajınız var"
+      new_posts: "en son okuduğunuz tarihten sonra bu konuda okunmamış {{new_posts}} yeni mesaj var"
 
       likes:
-        one: "there is 1 like in this topic"
-        other: "there are {{count}} likes in this topic"
-      back_to_list: "Back to Topic List"
-      options: "Topic Options"
-      show_links: "show links within this topic"
-      toggle_information: "toggle topic details"
-      read_more_in_category: "Want to read more? Browse other topics in {{catLink}} or {{latestLink}}."
-      read_more: "Want to read more? {{catLink}} or {{latestLink}}."
-      browse_all_categories: Browse all categories
+        one: "bu konuda 1 beğeni var"
+        other: "bu konuda {{count}} beğeni var"
+      back_to_list: "Konu Listesine Dön"
+      options: "Konu Seçenekleri"
+      show_links: "bu konudaki bağlantıları göster"
+      toggle_information: "konu detaylarına geç"
+      read_more_in_category: "Daha fazla okumak ister misiniz? {{catLink}} kategorisindeki diğer konuları listele veya {{latestLink}}."
+      read_more: "Daha fazla okumak ister misiniz? {{catLink}} veya {{latestLink}}."
+      browse_all_categories: Tüm kategorilere gözat
 
-      view_latest_topics: view latest topics
-      suggest_create_topic: Why not create a topic?
-      read_position_reset: "Your read position has been reset."
-      jump_reply_up: jump to earlier reply
-      jump_reply_down: jump to later reply
-      deleted: "The topic has been deleted"
+      view_latest_topics: son konuları görüntüle
+      suggest_create_topic: Neden bir konu oluştur muyorsunuz?
+      read_position_reset: "Okuma durumunuz sıfırlandı."
+      jump_reply_up: önceki cevaba atla
+      jump_reply_down: sonraki cevaba atla
+      deleted: "Konu silindi"
 
-      auto_close_notice: "This topic will automatically close %{timeLeft}."
-      auto_close_title: 'Auto-Close Settings'
-      auto_close_save: "Save"
-      auto_close_cancel: "Cancel"
-      auto_close_remove: "Don't Auto-Close This Topic"
+      auto_close_notice: "Bu konu otomatik olarak kapanacak %{timeLeft}."
+      auto_close_title: 'Otomatik-Kapama Ayarları'
+      auto_close_save: "Kaydet"
+      auto_close_cancel: "İptal"
+      auto_close_remove: "Bu Konuyu Otomatik Kapatma"
 
       progress:
-        title: topic progress
-        jump_top: jump to first post
-        jump_bottom: jump to last post
-        total: total posts
-        current: current post
+        title: konu gelişimi
+        jump_top: ilk mesaja atla
+        jump_bottom: son mesaja atla
+        total: toplam mesaj
+        current: şimdiki mesaj
 
-      notifications:
-        title: ''
-        reasons:
-          "3_2": 'You will receive notifications because you are watching this topic.'
-          "3_1": 'You will receive notifications because you created this topic.'
-          "3": 'You will receive notifications because you are watching this topic.'
-          "2_4": 'You will receive notifications because you posted a reply to this topic.'
-          "2_2": 'You will receive notifications because you are tracking this topic.'
+      bildirimler:
+        başlık: ''
+        nenenler:
+          "3_2": 'Bu konuyu izlediğiniz için bildirim alacaksınız.'
+          "3_1": 'Bu konuyu siz oluşturduğunuz için bildirim alacaksınız.'
+          "3": 'Bu konuyu izlediğiniz için bildirim alacaksınız.'
+          "2_4": 'Bu konuya cevap verdiğiniz için bildirim alacaksınız.'
+          "2_2": 'Bu konuyu takip ettiğiniz için bildirim alacaksınız.'
           "2": 'You will receive notifications because you <a href="/users/{{username}}/preferences">read this topic</a>.'
           "1": 'You will be notified only if someone mentions your @name or replies to your post.'
           "1_2": 'You will be notified only if someone mentions your @name or replies to your post.'
