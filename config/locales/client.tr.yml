@@ -520,42 +520,42 @@ en:
           "3": 'Bu konuyu izlediğiniz için bildirim alacaksınız.'
           "2_4": 'Bu konuya cevap verdiğiniz için bildirim alacaksınız.'
           "2_2": 'Bu konuyu takip ettiğiniz için bildirim alacaksınız.'
-          "2": 'You will receive notifications because you <a href="/users/{{username}}/preferences">read this topic</a>.'
-          "1": 'You will be notified only if someone mentions your @name or replies to your post.'
-          "1_2": 'You will be notified only if someone mentions your @name or replies to your post.'
-          "0": 'You are ignoring all notifications on this topic.'
-          "0_2": 'You are ignoring all notifications on this topic.'
+          "2": 'Bu konuyu <a href="/users/{{username}}/preferences">okuduğunuz için bildirim alacaksınız</a>.'
+          "1": 'Birisi @isim söz ettiğinde veya mesajınıza cevap verdiğinde bildirim alacaksınız.'
+          "1_2": 'Birisi @isim söz ettiğinde veya mesajınıza cevap verdiğinde bildirim alacaksınız.'
+          "0": 'Bu konu hakkında tüm bildirimleri devre dışı bırakıyorsunuz.'
+          "0_2": 'Bu konudaki tüm bildirimleri devre dışı bırakıyorsunuz.'
         watching:
-          title: "Watching"
-          description: "same as Tracking, plus you will be notified of all new posts."
+          title: "İzleme"
+          description: "Takip etmekle aynı, ayrıca tüm yeni mesajlardan haberder edilirsiniz."
         tracking:
-          title: "Tracking"
-          description: "you will be notified of @name mentions and replies to your posts, plus you will see a count of unread and new posts."
+          title: "Takip Etme"
+          description: "@isim söz edildiğinde veya mesajlarınıza cevap verildiğinde, ayrıca okunmamış ve yeni mesajlar hakkında bildirim alırsınız."
         regular:
-          title: "Regular"
-          description: "you will be notified only if someone mentions your @name or replies to your post."
+          title: "Düzenli"
+          description: "Sadece bir başkası @isim söz ettiğinde veya mesajınıza cevap verdiğinde bildirim alırsınız."
         muted:
-          title: "Muted"
-          description: "you will not be notified of anything about this topic, and it will not appear on your unread tab."
+          title: "Sessiz"
+          description: "Bu konu hakkındaki her şeyden haberdar edilirsiniz, ayrıca okunmayanlar sekmesinde görüntülenmez."
 
       actions:
-        delete: "Delete Topic"
-        open: "Open Topic"
-        close: "Close Topic"
-        auto_close: "Auto Close"
-        unpin: "Un-Pin Topic"
-        pin: "Pin Topic"
-        unarchive: "Unarchive Topic"
-        archive: "Archive Topic"
-        invisible: "Make Invisible"
-        visible: "Make Visible"
-        reset_read: "Reset Read Data"
-        multi_select: "Select for Merge/Split"
-        convert_to_topic: "Convert to Regular Topic"
+        delete: "Konuyu Sil"
+        open: "Konuyu Aç"
+        close: "Konuyu Kapat"
+        auto_close: "Otomatik Kapama"
+        unpin: "Pini Kaldır"
+        pin: "Konuyu Pinle"
+        unarchive: "Konuyu Arşivden Çıkar"
+        archive: "Konuyu Arşivle"
+        invisible: "Görünmez Yap"
+        visible: "Görünür Yap"
+        reset_read: "Veri Okumayı Sıfırla"
+        multi_select: "Birleştir/Böl İçin Seç"
+        convert_to_topic: "Düzenli Konuya Dönüştür"
 
       reply:
-        title: 'Reply'
-        help: 'begin composing a reply to this topic'
+        title: 'Cevapla'
+        help: 'bu konuya bir cevap yaz'
 
       clear_pin:
         title: "Clear pin"
