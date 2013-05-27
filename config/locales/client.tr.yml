@@ -558,139 +558,139 @@ en:
         help: 'bu konuya bir cevap yaz'
 
       clear_pin:
-        title: "Clear pin"
-        help: "Clear the pinned status of this topic so it no longer appears at the top of your topic list"
+        title: "Pini kaldır"
+        help: "Bu konunun pin statüsünü kaldırırsanız konu listenizin başında görünmez"
 
       share:
-        title: 'Share'
-        help: 'share a link to this topic'
+        title: 'Paylaş'
+        help: 'bu konuda bir link paylaş'
 
-      inviting: "Inviting..."
+      inviting: "Davet..."
 
       invite_private:
-        title: 'Invite to Private Message'
-        email_or_username: "Invitee's Email or Username"
-        email_or_username_placeholder: "email address or username"
-        action: "Invite"
-        success: "Thanks! We've invited that user to participate in this private message."
-        error: "Sorry, there was an error inviting that user."
+        title: 'Özel Mesaja Davet'
+        email_or_username: "Davet Edilenin Email veya Kullanıcı Adı"
+        email_or_username_placeholder: "email adresi veya kullanıcı adı"
+        action: "Davet Et"
+        success: "Teşekkürler! Bu kullanıcıyı özel mesaja katılması için davet ettik."
+        error: "Üzgünüz, bu kullanıcıyı davet ederken bir hata oluştu."
 
       invite_reply:
-        title: 'Invite Friends to Reply'
-        action: 'Email Invite'
-        help: 'send invitations to friends so they can reply to this topic with a single click'
-        email: "We'll send your friend a brief email allowing them to reply to this topic by clicking a link."
-        email_placeholder: 'email address'
-        success: "Thanks! We mailed out an invitation to <b>{{email}}</b>. We'll let you know when they redeem your invitation. Check the invitations tab on your user page to keep track of who you've invited."
-        error: "Sorry, we couldn't invite that person. Perhaps they are already a user?"
+        title: 'Tanıdıklarını Cevaba Davet Et'
+        action: 'Email Daveti'
+        help: 'bu konuya cevap vermeleri için arkadaşlarını davet et'
+        email: "Bir bağlantıya tıklayarak bu konuya cevap vermeleri için arkadaşlarına davet gönderilecek."
+        email_placeholder: 'email adresi'
+        success: "Teşekkürler! Şu emaile bir davet gönderdik <b>{{email}}</b>. Davetinizi kabul ettiklerinde bildirim alacaksınız. Davetlerinizi takip için kullanıcı sayfanızda davet sekmesini kontrol edin."
+        error: "Üzgünüz, bu kişiyi davet edemedik. Belki bu kişi üye olabilir?"
 
-      login_reply: 'Log In to Reply'
+      login_reply: 'Cevap İçin Giriş'
 
       filters:
-        user: "You're viewing only {{n_posts}} {{by_n_users}}."
+        user: "Sadece {{n_posts}} {{by_n_users}} inceliyorsunuz."
         n_posts:
-          one: "1 post"
-          other: "{{count}} posts"
+          one: "1 mesaj"
+          other: "{{count}} mesaj"
         by_n_users:
-          one: "made by 1 specific user"
-          other: "made by {{count}} specific users"
+          one: "1 belirli kullanıcı tarafından yapılmış"
+          other: "{{count}} belirli kullanıcı tarafından yapılmış"
 
-        best_of: "You're viewing the {{n_best_posts}} {{of_n_posts}}."
+        best_of: "{{n_best_posts}} {{of_n_posts}} inceliyorsunuz."
         n_best_posts:
-          one: "1 best post"
-          other: "{{count}} best posts"
+          one: "1 en iyi mesaj"
+          other: "{{count}} en iyi mesaj"
         of_n_posts:
-          one: "of 1 in the topic"
-          other: "of {{count}} in the topic"
-        cancel: "Show all posts in this topic again."
+          one: "1 konuda"
+          other: "{{count}} konuda"
+        cancel: "Bu konudaki tüm mesajları tekrar göster."
 
       split_topic:
-        title: "Split Topic"
-        action: "split topic"
-        topic_name: "New Topic Name:"
-        error: "There was an error splitting that topic."
+        title: "Konuyu Böl"
+        action: "konuyu böl"
+        topic_name: "Yeni Konu İsmi:"
+        error: "Konuyu bölerken bir hata oluştu."
         instructions:
-          one: "You are about to create a new topic and populate it with the post you've selected."
-          other: "You are about to create a new topic and populate it with the <b>{{count}}</b> posts you've selected."
+          one: "Yeni bir konu oluşturmak ve seçtiğiniz yazı ile doldurmak üzeresiniz."
+          other: "Yeni bir konu oluşturmak ve seçtiğiniz <b>{{count}}</b> ile doldurmak üzeresiniz."
 
       merge_topic:
-        title: "Merge Topic"
-        action: "merge topic"
-        error: "There was an error merging that topic."
+        title: "Konu Birleştir"
+        action: "konu birleştir"
+        error: "Konu birleştirirken hata oluştu."
         instructions:
-          one: "Please choose the topic you'd like to move that post to."
-          other: "Please choose the topic you'd like to move those <b>{{count}}</b> posts to."
+          one: "Lütfen bu mesajı taşımak istediğiniz konuyu seçin."
+          other: "Bu <b>{{count}}</b> mesajları taşımak istediğiniz konuyu seçin."
 
       multi_select:
-        select: 'select'
-        selected: 'selected ({{count}})'
-        delete: delete selected
-        cancel: cancel selecting
+        select: 'seç'
+        selected: 'seçilen ({{count}})'
+        delete: seçileni sil
+        cancel: seçileni iptal et
         description:
-          one: You have selected <b>1</b> post.
-          other: "You have selected <b>{{count}}</b> posts."
+          one:  <b>1</b> mesaj seçtiniz.
+          other: "<b>{{count}}</b> mesaj seçtiniz."
 
     post:
-      reply: "Replying to {{link}} by {{replyAvatar}} {{username}}"
-      reply_topic: "Reply to {{link}}"
-      quote_reply: "quote reply"
-      edit: "Editing {{link}} by {{replyAvatar}} {{username}}"
-      post_number: "post {{number}}"
-      in_reply_to: "in reply to"
-      reply_as_new_topic: "Reply as new Topic"
-      continue_discussion: "Continuing the discussion from {{postLink}}:"
-      follow_quote: "go to the quoted post"
-      deleted_by_author: "(post removed by author)"
-      expand_collapse: "expand/collapse"
+      reply: "Cevaplayan {{link}} kişi {{replyAvatar}} {{username}}"
+      reply_topic: "Cevap {{link}}"
+      quote_reply: "alıntı cevap"
+      edit: "Düzenleyen {{link}} kişi {{replyAvatar}} {{username}}"
+      post_number: "mesaj {{number}}"
+      in_reply_to: "cevap olarak"
+      reply_as_new_topic: "Yeni Konu Olarak Cevap"
+      continue_discussion: "{{postLink}} gelen tartışmanın devamı:"
+      follow_quote: "alıntı mesaja git"
+      deleted_by_author: "(yazarı tarafından kaldırılan mesaj)"
+      expand_collapse: "genişlet/daralt"
 
       has_replies:
-        one: "Reply"
-        other: "Replies"
+        one: "Cevap"
+        other: "Cevaplar"
 
       errors:
-        create: "Sorry, there was an error creating your post. Please try again."
-        edit: "Sorry, there was an error editing your post. Please try again."
-        upload: "Sorry, there was an error uploading that file. Please try again."
-        upload_too_large: "Sorry, the file you are trying to upload is too big (maximum size is {{max_size_kb}}kb), please resize it and try again."
-        upload_too_many_images: "Sorry, you can only upload one image at a time."
-        only_images_are_supported: "Sorry, you can only upload images."
+        create: "Üzgünüz, mesajınızı oluştururken bir hata oluştu. Lütfen tekrar deneyin."
+        edit: "Üzgünüz, mesajınızı düzenlerken bir hata oluştu. Lütfen tekrar deneyin."
+        upload: "Üzgünüz, bu dosyayı yüklerken bir hata oluştu. Lütfen tekrar deneyin."
+        upload_too_large: "Üzgünüz, yüklemeye çalıştığınız dosya çok büyük (maksimum boyut {{max_size_kb}}kb), lütfen yeniden boyutlandırın ve tekrar deneyin."
+        upload_too_many_images: "Üzgünüz, bir seferde sadece bir resim ekleyebilirsiniz."
+        only_images_are_supported: "Üzgünüz, sadece resim ekleyebilirsiniz."
 
-      abandon: "Are you sure you want to abandon your post?"
+      abandon: "Mesajınızdan vazgeçmek istediğinizden emin misiniz?"
 
       archetypes:
-        save: 'Save Options'
+        save: 'Seçenekleri Kaydet'
 
       controls:
-        reply: "begin composing a reply to this post"
-        like: "like this post"
-        edit: "edit this post"
-        flag: "flag this post for attention or send a notification about it"
-        delete: "delete this post"
-        undelete: "undelete this post"
-        share: "share a link to this post"
-        bookmark: "bookmark this post to your user page"
-        more: "More"
+        reply: "bu mesaja bir cevap oluşturmaya başla"
+        like: "bu mesajı beğen"
+        edit: "bu mesajı düzenle"
+        flag: "ilgi için bu mesajı işaretle veya bu mesaj hakkında bildirim gönder"
+        delete: "bu mesajı sil"
+        undelete: "bu mesajı silmeyi geri al"
+        share: "bu mesajla ilgili bir link paylaş"
+        bookmark: "kullanıcı sayfanıza bu mesajı imleyin"
+        more: "Daha fazla"
 
       actions:
-        flag: 'Flag'
+        flag: 'Uyarı'
         clear_flags:
-          one: "Clear flag"
-          other: "Clear flags"
+          one: "Uyarıyı kaldır"
+          other: "Uyarıları temizle"
         it_too:
-          off_topic: "Flag it too"
-          spam: "Flag it too"
-          inappropriate: "Flag it too"
-          custom_flag: "Flag it too"
-          bookmark: "Bookmark it too"
-          like: "Like it too"
-          vote: "Vote for it too"
+          off_topic: "Uyar"
+          spam: "Uyar"
+          inappropriate: "Uyar"
+          custom_flag: "Uyar"
+          bookmark: "İmle"
+          like: "Beğen"
+          vote: "Oy ver"
         undo:
-          off_topic: "Undo flag"
-          spam: "Undo flag"
-          inappropriate: "Undo flag"
-          bookmark: "Undo bookmark"
-          like: "Undo like"
-          vote: "Undo vote"
+          off_topic: "Uyarıyı geri al"
+          spam: "Uyarıyı geri al"
+          inappropriate: "Uyarıyı geri al"
+          bookmark: "İmi geri al"
+          like: "beğenmekten vazgeç"
+          vote: "Oyu geri al"
         people:
           off_topic: "{{icons}} marked this as off-topic"
           spam: "{{icons}} marked this as spam"
