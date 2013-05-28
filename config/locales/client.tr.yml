@@ -692,85 +692,85 @@ tr:
           like: "beğenmekten vazgeç"
           vote: "Oyu geri al"
         people:
-          off_topic: "{{icons}} marked this as off-topic"
-          spam: "{{icons}} marked this as spam"
-          inappropriate: "{{icons}} marked this as inappropriate"
+          off_topic: "{{icons}} bunu konu dışı olarak işaretledi"
+          spam: "{{icons}} bunu spam olarak işaretledi"
+          inappropriate: "{{icons}} bunu uygunsuz olarak işaretledi"
           notify_moderators: "{{icons}} notified moderators"
-          notify_moderators_with_url: "{{icons}} <a href='{{postUrl}}'>notified moderators</a>"
-          notify_user: "{{icons}} sent a private message"
-          notify_user_with_url: "{{icons}} sent a <a href='{{postUrl}}'>private message</a>"
-          bookmark: "{{icons}} bookmarked this"
-          like: "{{icons}} liked this"
-          vote: "{{icons}} voted for this"
+          notify_moderators_with_url: "{{icons}} <a href='{{postUrl}}'>moderatörleri haberdar etti</a>"
+          notify_user: "{{icons}} özel bir mesaj gönderdi"
+          notify_user_with_url: "{{icons}} özel mesaj <a href='{{postUrl}}'>gönderdi</a>"
+          bookmark: "{{icons}} bunu imledi"
+          like: "{{icons}} bunu beğendi"
+          vote: "{{icons}} buna oy verdi"
         by_you:
-          off_topic: "You flagged this as off-topic"
-          spam: "You flagged this as spam"
-          inappropriate: "You flagged this as inappropriate"
-          notify_moderators: "You flagged this for moderation"
-          notify_user: "You sent a private message to this user"
-          bookmark: "You bookmarked this post"
-          like: "You liked this"
-          vote: "You voted for this post"
+          off_topic: "Bunu konu dışı olarak işaretlediniz"
+          spam: "Bunu spam olarak işaretlediniz"
+          inappropriate: "Bunu uygunsuz olarak işaretlediniz"
+          notify_moderators: "Bunu moderatör için işaretlediniz"
+          notify_user: "Bu kullanıcıya özel mesaj gönderdiniz"
+          bookmark: "Bu mesajı imlediniz"
+          like: "Bunu beğendiniz"
+          vote: "Bu mesaja oy verdiniz"
         by_you_and_others:
           off_topic:
-            one: "You and 1 other flagged this as off-topic"
-            other: "You and {{count}} other people flagged this as off-topic"
+            one: "Siz ve 1 kişi bunu konu dışı olarak işaretlediniz"
+            other: "Siz ve {{count}} kişi bunu konu dışı olarak işaretlediniz"
           spam:
-            one: "You and 1 other flagged this as spam"
-            other: "You and {{count}} other people flagged this as spam"
+            one: "Siz ve 1 başkası bunu spam olarak işaretlediniz"
+            other: "Siz ve {{count}} kişi bunu spam olarak işaretlediniz"
           inappropriate:
-            one: "You and 1 other flagged this as inappropriate"
-            other: "You and {{count}} other people flagged this as inappropriate"
+            one: "Siz ve 1 kişi bunu uygunsuz olarak işaretlediniz"
+            other: "Siz ve {{count}} kişi bunu uygunsuz olarak işaretlediniz"
           notify_moderators:
-            one: "You and 1 other flagged this for moderation"
-            other: "You and {{count}} other people flagged this for moderation"
+            one: "Siz ve 1 kişi bunu moderasyon için işaretlediniz"
+            other: "Siz ve {{count}} kişi bunu moderasyon için işaretlediniz"
           notify_user:
-            one: "You and 1 other sent a private message to this user"
-            other: "You and {{count}} other people sent a private message to this user"
+            one: "Siz ve 1 kişi bu kullanıcıya özel mesaj gönderdiniz"
+            other: "Siz ve {{count}} kişi bu kullanıcıya özel mesaj gönderdiniz"
           bookmark:
-            one: "You and 1 other bookmarked this post"
-            other: "You and {{count}} other people bookmarked this post"
+            one: "Siz ve 1 kişi bu mesajı imlediniz"
+            other: "Siz ve {{count}} kişi bu mesajı imlediniz"
           like:
-            one: "You and 1 other liked this"
-            other: "You and {{count}} other people liked this"
+            one: "Siz ve 1 kişi bunu beğendi"
+            other: "Siz ve {{count}} kişi bunu beğendi"
           vote:
-            one: "You and 1 other voted for this post"
-            other: "You and {{count}} other people voted for this post"
+            one: "Siz ve 1 kişi bu mesaja oy verdi"
+            other: "Siz ve {{count}} kişi bu mesaja oy verdi"
         by_others:
           off_topic:
-            one: "1 person flagged this as off-topic"
-            other: "{{count}} people flagged this as off-topic"
+            one: "1 kişi bunu konu dışı olarak işaretledi"
+            other: "{{count}} kişi bunu konu dışı olarak işaretledi"
           spam:
-            one: "1 person flagged this as spam"
-            other: "{{count}} people flagged this as spam"
+            one: "1 kişi bunu spam olarak işaretledi"
+            other: "{{count}} kişi bunu spam olarak işaretledi"
           inappropriate:
-            one: "1 person flagged this as inappropriate"
-            other: "{{count}} people flagged this as inappropriate"
+            one: "1 kişi bunu uygunsuz olarak işaretledi"
+            other: "{{count}} kişi bunu uygunsuz olarak işaretledi"
           notify_moderators:
-            one: "1 person flagged this for moderation"
-            other: "{{count}} people flagged this for moderation"
+            one: "1 kişi bunu moderasyon için işaretledi"
+            other: "{{count}} kişi bunu moderasyon için işaretledi"
           notify_user:
-            one: "1 person sent a private message to this user"
-            other: "{{count}} sent a private message to this user"
+            one: "1 kişi bu kullanıcıya özel mesaj gönderdi"
+            other: "{{count}} bu kullanıcıya özel mesaj gönderdi"
           bookmark:
-            one: "1 person bookmarked this post"
-            other: "{{count}} people bookmarked this post"
+            one: "1 kişi bu mesajı imledi"
+            other: "{{count}} kişi bu mesajı imledi"
           like:
-            one: "1 person liked this"
-            other: "{{count}} people liked this"
+            one: "1 kişi bunu beğendi"
+            other: "{{count}} kişi bunu beğendi"
           vote:
-            one: "1 person voted for this post"
-            other: "{{count}} people voted for this post"
+            one: "1 kişi bu mesaja oy verdi"
+            other: "{{count}} kişi bu mesaja oy verdi"
 
       edits:
-        one: 1 edit
-        other: "{{count}} edits"
-        zero: no edits
+        one: 1 düzenleme
+        other: "{{count}} düzenleme"
+        zero: düzenleme yok
 
       delete:
         confirm:
-          one: "Are you sure you want to delete that post?"
-          other: "Are you sure you want to delete all those posts?"
+          one: "Bu mesajı silmek istediğinizden emin misiniz?"
+          other: "Tüm bu mesajları silmek istediğinizden emin misiniz?"
 
     category:
       none: '(no category)'
