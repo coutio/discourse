@@ -4,15 +4,15 @@
 # To validate this YAML file after you change it, please paste it into
 # http://yamllint.com/
 
-en:
+tr:
   time:
     formats:
       short: "%m-%d-%Y"
 
   title: "Discourse"
-  topics: "Topics"
-  posts: "posts"
-  loading: "Loading"
+  topics: "Konular"
+  posts: "mesajlar"
+  loading: "Yükleniyor"
   powered_by_html: 'Powered by <a href="http://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled'
 
   via: "%{username} via %{site_name}"
