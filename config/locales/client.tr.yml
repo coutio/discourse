@@ -773,122 +773,122 @@ tr:
           other: "Tüm bu mesajları silmek istediğinizden emin misiniz?"
 
     category:
-      none: '(no category)'
-      edit: 'edit'
-      edit_long: "Edit Category"
-      edit_uncategorized: "Edit Uncategorized"
-      view: 'View Topics in Category'
-      general: 'General'
-      settings: 'Settings'
-      delete: 'Delete Category'
-      create: 'Create Category'
-      save: 'Save Category'
-      creation_error: There has been an error during the creation of the category.
-      save_error: There was an error saving the category.
-      more_posts: "view all {{posts}}..."
-      name: "Category Name"
-      description: "Description"
-      topic: "category topic"
-      badge_colors: "Badge colors"
-      background_color: "Background color"
-      foreground_color: "Foreground color"
-      name_placeholder: "Should be short and succinct."
-      color_placeholder: "Any web color"
-      delete_confirm: "Are you sure you want to delete this category?"
-      delete_error: "There was an error deleting the category."
-      list: "List Categories"
-      no_description: "There is no description for this category."
-      change_in_category_topic: "Edit Description"
-      hotness: "Hotness"
-      already_used: 'This color has been used by another category'
-      is_secure: "Secure category?"
-      add_group: "Add Group"
-      security: "Security"
-      allowed_groups: "Allowed Groups:"
-      auto_close_label: "Auto-close topics after:"
+      none: '(kategorisiz)'
+      edit: 'düzenle'
+      edit_long: "Kategoriyi Düzenle"
+      edit_uncategorized: "Kategorisiz Düzenle"
+      view: 'Kategorideki Konular'
+      general: 'Genel'
+      settings: 'Ayarlar'
+      delete: 'Kategoriyi Sil'
+      create: 'Kategori Oluştur'
+      save: 'Kategoriyi Kaydet'
+      creation_error: Kategori oluşturma esnasında bir hata oluştu.
+      save_error: Kategori kaydedilirken bir hata oluştu.
+      more_posts: "tüm mesajları görüntüle {{posts}}..."
+      name: "Kategori İsmi"
+      description: "Açıklama"
+      topic: "kategori konusu"
+      badge_colors: "Rozet renkleri"
+      background_color: "Arka plan rengi"
+      foreground_color: "Ön plan rengi"
+      name_placeholder: "Kısa ve öz olmalı."
+      color_placeholder: "Herhangi bir web rengi"
+      delete_confirm: "Bu kategoriyi silmek istediğinizden emin misiniz?"
+      delete_error: "Kategori silinirken bir hata oluştu."
+      list: "Kategorileri Listele"
+      no_description: "Bu kategorinin açıklaması yok."
+      change_in_category_topic: "Açıklamayı Düzenle"
+      hotness: "Beğenilenler"
+      already_used: 'Bu renk başka bir kategori için kullanılmış'
+      is_secure: "Güvenli Kategori?"
+      add_group: "Grup Ekle"
+      security: "Güvenlik"
+      allowed_groups: "İzinli Gruplar:"
+      auto_close_label: "Konuların otomatik olarak kapanması:"
 
 
     flagging:
-      title: 'Why are you flagging this post?'
-      action: 'Flag Post'
-      notify_action: 'Notify'
-      cant: "Sorry, you can't flag this post at this time."
-      custom_placeholder_notify_user: "Why does this post require you to speak to this user directly and privately? Be specific, be constructive, and always be kind."
-      custom_placeholder_notify_moderators: "Why does this post require moderator attention? Let us know specifically what you are concerned about, and provide relevant links where possible."
+      title: 'Bu mesajı neden işaretliyorsunuz?'
+      action: 'Mesajı Uyar'
+      notify_action: 'Bildir'
+      cant: "Üzgünüz, şu anda bu mesajı uyaramazsınız."
+      custom_placeholder_notify_user: "Bu mesaj neden bu kullanıcı ile doğrudan ve özel olarak konuşmanızı gerektiriyor? Açık, yapıcı ve nazik olun."
+      custom_placeholder_notify_moderators: "Bu mesaj neden moderatör incelemesi gerektiriyor? Sizi endişelendiren nedir, mesaj bağlantısını da bize bildirin."
       custom_message:
-        at_least: "enter at least {{n}} characters"
-        more: "{{n}} to go..."
-        left: "{{n}} remaining"
+        at_least: "en az {{n}} karakter girin"
+        more: "{{n}} gitmek için..."
+        left: "{{n}} kalan"
 
     topic_summary:
-      title: "Topic Summary"
-      links_shown: "show all {{totalLinks}} links..."
-      clicks: "clicks"
-      topic_link: "topic link"
+      title: "Konu Özeti"
+      links_shown: "tümünü göster {{totalLinks}} bağlantılar..."
+      clicks: "tıklamalar"
+      topic_link: "konu bağlantısı"
 
     topic_statuses:
       locked:
-        help: "this topic is closed; it no longer accepts new replies"
+        help: "bu konu kapandı; artık yeni cevap kabul edilmiyor"
       pinned:
-        help: "this topic is pinned; it will display at the top of its category"
+        help: "bu konu pinlendi; kategorisinde en üstte görüntülenecek"
       archived:
-        help: "this topic is archived; it is frozen and cannot be changed"
+        help: "bu konu arşivlendi; konu donduruldu ve artık değiştirilemez"
       invisible:
-        help: "this topic is invisible; it will not be displayed in topic lists, and can only be accessed via a direct link"
+        help: "bu konu görünmez yapıldı; konu listelerinde görüntülenmeyecek, sadece doğrudan bir bağlantı ile erişilebilir"
 
-    posts: "Posts"
-    posts_long: "{{number}} posts in this topic"
-    original_post: "Original Post"
-    views: "Views"
-    replies: "Replies"
-    views_long: "this topic has been viewed {{number}} times"
-    activity: "Activity"
-    likes: "Likes"
-    top_contributors: "Participants"
-    category_title: "Category"
-    history: "History"
-    changed_by: "by {{author}}"
+    posts: "Mesajlar"
+    posts_long: "{{number}} bu konudaki mesajlar"
+    original_post: "Orijinal Mesaj"
+    views: "Görüntülenme"
+    replies: "Cevaplar"
+    views_long: "bu konu {{number}} defa görüntülendi"
+    activity: "Etkinlik"
+    likes: "Beğeni"
+    top_contributors: "Katılımcılar"
+    category_title: "Kategori"
+    history: "Geçmiş"
+    changed_by: "gönderen {{author}}"
 
-    categories_list: "Categories List"
+    categories_list: "Kategoriler Listesi"
 
     filters:
       latest:
-        title: "Latest"
-        help: "the most recent topics"
+        title: "Son"
+        help: "en son konular"
       hot:
-        title: "Hot"
-        help: "a selection of the hottest topics"
+        title: "Beğenilenler"
+        help: "bepenilen konular seçkisi"
       favorited:
-        title: "Favorited"
-        help: "topics you marked as favorites"
+        title: "Favoriler"
+        help: "favori olarak işaretlediğiniz konular"
       read:
-        title: "Read"
-        help: "topics you've read, in the order that you last read them"
+        title: "Okunanlar"
+        help: "okuduğunuz konular, en son okuduklarınıza göre sıralama"
       categories:
-        title: "Categories"
-        title_in: "Category - {{categoryName}}"
-        help: "all topics grouped by category"
+        title: "Kategoriler"
+        title_in: "Kategori - {{categoryName}}"
+        help: "kategoriye göre gruplandırılmış tüm konular"
       unread:
         title:
-          zero: "Unread"
-          one: "Unread (1)"
-          other: "Unread ({{count}})"
-        help: "tracked topics with unread posts"
+          zero: "Okunmamış"
+          one: "Okunmamış (1)"
+          other: "Okunmamış ({{count}})"
+        help: "okunmamış mesajlarla izlenen konular"
       new:
         title:
-          zero: "New"
-          one: "New (1)"
-          other: "New ({{count}})"
-        help: "new topics since your last visit"
+          zero: "Yeni"
+          one: "Yeni (1)"
+          other: "Yeni ({{count}})"
+        help: "son ziyaretiniz itibariyle yeni konular"
       posted:
-        title: "My Posts"
-        help: "topics you have posted in"
+        title: "Mesajlarım"
+        help: "gönderdiğiniz konular"
       category:
         title:
           zero: "{{categoryName}}"
           one: "{{categoryName}} (1)"
           other: "{{categoryName}} ({{count}})"
-        help: "latest topics in the {{categoryName}} category"
+        help: "{{categoryName}} kategorisindeki son konular"
 
     browser_update: 'Unfortunately, <a href="http://www.discourse.org/faq/#browser">your browser is too old to work on this Discourse forum</a>. Please <a href="http://browsehappy.com">upgrade your browser</a>.'
 
