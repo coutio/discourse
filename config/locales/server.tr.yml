@@ -7,7 +7,7 @@
 tr:
   time:
     formats:
-      short: "%m-%d-%Y"
+      short: "%d-%m-%Y"
 
   title: "Discourse"
   topics: "Konular"
@@ -16,15 +16,15 @@ tr:
   powered_by_html: 'Powered by <a href="http://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled'
 
   via: "%{username} via %{site_name}"
-  is_reserved: "is reserved"
+  is_reserved: "ayrılmış"
 
-  site_under_maintenance: 'Site is currently undergoing maintenance.'
-  operation_already_running: "An %{operation} is currently running. Can't start a new %{operation} job right now."
+  site_under_maintenance: 'Site şu anda bakıma alınmış.'
+  operation_already_running: "Bir %{operation} şu anda çalışıyor. Şu anda yeni bir %{operation} iş başlatılamıyor."
 
   too_many_mentions:
-    zero: "Sorry, you can't mention other users."
-    one: "Sorry, you can only mention one other user in a post."
-    other: "Sorry, you can only mention %{count} users in a post."
+    zero: "Üzgünüz, diğer kullanıcılardan söz edemezsiniz."
+    one: "Üzgünüz, bir mesajda sadece bir kullanıcıdan söz edebilirsiniz."
+    other: "Üzgünüz, bir mesajda sadece %{count} kullanıcıdan söz edebilirsiniz."
   too_many_mentions_newuser:
     zero: "Sorry, new users can't mention other users."
     one: "Sorry, new users can only mention one other user in a post."
